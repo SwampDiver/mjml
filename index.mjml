@@ -1,0 +1,168 @@
+<mjml>
+  <mj-head>
+    <mj-title>Apple Letter</mj-title>
+    <mj-preview>Apple Letter</mj-preview>
+    <mj-style>
+      h1 {
+        padding: 50px 30px 45px 30px;
+        color: #ffffff;
+        font-family: Verdana;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 49px;
+        text-align: center;
+      }
+
+      .features {
+        padding: 0 90px 40px;
+      }
+
+      .up {
+        margin-bottom: 0 5px;
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        color: #ffffff;
+      }
+
+      .value {
+        margin-bottom: 10px;
+        font-family: Verdana;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        color: #ffffff;
+      }
+
+      .advantages {
+        font-family: Verdana;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+        color: #ffffff;
+      }
+
+      .item,
+      .group {
+        width: 150px !important;
+      }
+
+      .social td {
+        padding: 5px !important;
+      }
+
+      .footer-text td {
+        padding: 20px 60px !important;
+      }
+
+      @media (max-width: 650px) {
+        .footer-text td {
+          padding: 20px !important;
+        }
+      }
+
+      @media (max-width: 450px) {
+        .wrap h1 {
+          font-size: 30px !important;
+        }
+
+        .features {
+          padding: 0 30px 30px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body width="640px">
+    <mj-section background-color="#313131" padding="0">
+      <mj-column>
+        <mj-image width="24px" align="center" padding="24px" src="https://github.com/SwampDiver/mjml/blob/main/img/logo.png?raw=true" />
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper css-class="wrap" background-color="#141415" padding="0">
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text>
+            <h1>
+              Our most stunning take on post-production.
+            </h1>
+          </mj-text>
+          <mj-button font-family="Verdana" font-size="15px" font-weight="bold" background-color="transparent" color="#51ACFF" href="#">
+            Buy now
+            <img src="https://github.com/SwampDiver/mjml/blob/main/img/arrow.png?raw=true" style=" margin-bottom: -2px;" />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image align="center" src="https://github.com/SwampDiver/mjml/blob/main/img/mac.png?raw=true" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="features">
+        <mj-column css-class="item" width="150px">
+          <mj-text>
+            <div class="up">up to</div>
+            <div class="value">3.2x</div>
+            <div class="advantages">faster render</div>
+          </mj-text>
+          <mj-image align="left" src="https://github.com/SwampDiver/mjml/blob/main/img/line.png?raw=true" />
+        </mj-column>
+        <mj-column css-class="item" width="150px">
+          <mj-text>
+            <div class="up">up to</div>
+            <div class="value">8+</div>
+            <div class="advantages">streams of 4k video</div>
+          </mj-text>
+          <mj-image align="left" src="https://github.com/SwampDiver/mjml/blob/main/img/line.png?raw=true" />
+        </mj-column>
+        <mj-column css-class="item" width="150px">
+          <mj-text>
+            <div class="up">up to</div>
+            <div class="value">2x</div>
+            <div class="advantages">faster running time</div>
+          </mj-text>
+          <mj-image align="left" src="https://github.com/SwampDiver/mjml/blob/main/img/line.png?raw=true" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section background-color="#313131" padding=" 48px 0 0 0">
+      <mj-group css-class="group" width="150px">
+        <mj-column padding="0">
+          <mj-button href="#" css-class="social" background-color="transparent" padding="0">
+            <img src="https://github.com/SwampDiver/mjml/blob/main/img/fb.png?raw=true" />
+          </mj-button>
+        </mj-column>
+
+        <mj-column padding="0">
+          <mj-button href="#" css-class="social" background-color="transparent" padding="0">
+            <img src="https://github.com/SwampDiver/mjml/blob/main/img/twitter.png?raw=true" />
+          </mj-button>
+        </mj-column>
+
+        <mj-column padding="0">
+          <mj-button href="#" css-class="social" background-color="transparent" padding="0">
+            <img src="https://github.com/SwampDiver/mjml/blob/main/img/insta.png?raw=true" />
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section css-class="footer-text" background-color="#313131">
+      <mj-column>
+        <mj-text align="center" color="#7d7d7d" font-family="Verdana" font-size="10px" line-height="18px">
+          All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+        </mj-text>
+
+        <mj-text align="center" color="#7d7d7d" font-family="Verdana" font-size="10px" line-height="18px">
+          This email was sent to hello@you.com because you indicated that you’d like to stay up to date on the latest features, services, support info and offers for Final Cut Pro. You can unsubscribe from Final Cut Pro emails <a href="#" style="color:#51ACFF; text-decoration: none" ;>here</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
